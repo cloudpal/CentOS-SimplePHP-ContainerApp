@@ -1,0 +1,500 @@
+  515  aws s3 ls athena-examples/elb/raw/2015/01/01
+  516  aws s3 ls athena-examples/elb/raw/2015/01/01/
+  517  pwd
+  518  cd Downloads/
+  519  cd aws-batch-helpers-master
+  520  ls
+  521  cd fetch-and-run/
+  522  ls
+  523  cat Dockerfile 
+  524  docker --version
+  525  ls
+  526  cat fetch_and_run.sh 
+  527  vim fetch_and_run.sh 
+  528  clear
+  529  ls
+  530  pwd
+  531  cd ..
+  532  docker build -t fetch-and-run .
+  533  cd fetch-and-run/
+  534  ls
+  535  docker build -t fetch-and-run .
+  536  docker start
+  537  man docker start
+  538  docker start help
+  539  docker start --help
+  540  docker build -t fetch-and-run .
+  541  ls
+  542  docker images
+  543  ssh sona@safelang.com
+  544  clea
+  545  clear
+  546  aws ecr get-login --region us-east-1
+  547  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9 -e none https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  548  clearl
+  549  clear
+  550  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9 -e none https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  551  aws ecr get-login --region us-east-1
+  552  ssh sona@safelang.com
+  553  clear
+  554  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9 -e none https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  555  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9  https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  556  docker build -t awsbatch/fetch_and_run .
+  557  docker tag awsbatch/fetch_and_run:latest 976804535173.dkr.ecr.us-east-1.amazonaws.com/awsbatch/fetch_and_run:latest
+  558  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/awsbatch/fetch_and_run:latest
+  559  aws s3 ls
+  560  aws s3 cp ../../../Documents/awsbatch-runscript.sh s3://us-east-1-glueouputbucket/awsbatch-runscript.sh
+  561  aws s3 ls s3://us-east-1-glueouputbucket
+  562  aws s3 ls s3://us-east-1-glueouputbucket
+  563  ls
+  564  vim Dockerfile 
+  565  aws s3 ls s3://mytestwebsitedocuments-norcal
+  566  docker build -t awsbatch/fetch_and_run .
+  567  vim Dockerfile 
+  568  ls
+  569  pwd
+  570  cd ..
+  571  ls
+  572  mkdir my-own-container
+  573  cd my-own-container/
+  574  vim DockerFile
+  575  cp -R ~/ECS-Octank/scr .
+  576  cp -R ~/ECS-Octank/src/ .
+  577  ls
+  578  mkdir src
+  579  mv assets/ src/
+  580  mv images/ src/
+  581  mv index.php  src/
+  582  ls
+  583  vim DockerFile 
+  584  docker build -t my-own-container  .
+  585  pws
+  586  pwd
+  587  docker build -t my-own-container .
+  588  ls
+  589  mv DockerFile  Dockerfile
+  590  docker build -t my-own-container .
+  591  vim Dockerfile 
+  592  docker build -t my-own-container .
+  593  vim Dockerfile 
+  594  docker build -t my-own-container .
+  595  vim Dockerfile 
+  596  ls
+  597  vim fetch_and_run.sh
+  598  docker build -t my-own-container .
+  599  docker tag awsbatch/fetch_and_run:latest 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  600  ls
+  601  cd src
+  602  ls
+  603  vim index.php 
+  604  ls
+  605  cd ..
+  606  ls
+  607  vim Dockerfile 
+  608  docker build -t my-own-container .
+  609  docker tag awsbatch/fetch_and_run:latest 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  610  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9  https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  611  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  612  ls
+  613  cd src
+  614  ls
+  615  cd imagez
+  616  cd images
+  617  ls
+  618  ls
+  619  cd ..
+  620  ls
+  621  cd ..
+  622  ls
+  623  vim Dockerfile 
+  624  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  625  docker build -t my-own-container .
+  626  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  627  vim Dockerfile 
+  628  docker build -t my-own-container .
+  629  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  630  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container:latest
+  631  ls
+  632  vim Dockerfile 
+  633  pwd
+  634  docker ps
+  635  docker images
+  636  docker run 976804535173.dkr.ecr.us-east-1.amazonaws.com/my-own-container
+  637  s
+  638  ls
+  639  rm fetch_and_run.sh 
+  640  ls
+  641  vim Dockerfile 
+  642  docker build -t my-own-container .
+  643  docker images
+  644  docker run my-own-container
+  645  docker ps
+  646  docker run my-own-container -i -t
+  647  docker run my-own-container -t
+  648  docker run -d  my-own-container 
+  649  docker ps
+  650  docker run -d  -p 80:80 my-own-container 
+  651  docker s
+  652  docker ps
+  653  docker run -it  my-own-container  /bin/bash
+  654  docker ps
+  655  vim Dockerfile 
+  656  docker build my-own-container .
+  657  docker build -t my-own-container .
+  658  docker run -it  my-own-container  /bin/bash
+  659  ls
+  660  vim Dockerfile 
+  661  docker build -t my-own-container .
+  662  docker run -it  my-own-container  /bin/bash
+  663  ls
+  664  vim Dockerfile 
+  665  docker build -t my-own-container .
+  666  docker ps
+  667  ls
+  668  docker images
+  669  docker remove 9f2eabb10cc7
+  670  docker run -it  my-own-container  /bin/bash
+  671  docker rm 9f2eabb10cc7
+  672  clear
+  673  docker run  my-own-container
+  674  vim Dockerfile 
+  675  docker build -t my-own-container .
+  676  docker run  my-own-container
+  677  vim Dockerfile 
+  678  docker build -t my-own-container .
+  679  docker run  my-own-container
+  680  vim Dockerfile 
+  681  docker build -t my-own-container .
+  682  docker run  my-own-container
+  683  vim Dockerfile 
+  684  docker run  my-own-container
+  685  vim Dockerfile 
+  686  docker build -t my-own-container .
+  687  docker run  my-own-container
+  688  vim Dockerfile 
+  689  vim run-httpd.sh
+  690  ls
+  691  docker build -t my-own-container .
+  692  docker run  my-own-container
+  693  vim Dockerfile 
+  694  docker build -t my-own-container .
+  695  docker run  my-own-container
+  696  cd ..
+  697  mkdir new-centos-lamp
+  698  vim Dockerfile
+  699  mv Dockerfile new-centos-lamp/
+  700  cd new-centos-lamp/
+  701  docker build -t new-centos-lamp .
+  702  vim Dockerfile
+  703  vim Dockerfile
+  704  docker build -t new-centos-lamp .
+  705  vim Dockerfile 
+  706  mv Dockerfile Dockerfile2
+  707  cp Dockerfile2  Dockerfile
+  708  vim Dockerfile
+  709  vim Dockerfile
+  710  docker build -t new-centos-lamp .
+  711  vim supervisor.conf
+  712  vim MariaDB.repo
+  713  ls
+  714  cd ..
+  715  mkdir amzlamp
+  716  cd amzlamp
+  717  docker pull amazonlinux
+  718  docker images
+  719  docker run -t -i amazonlinux /bin/bash
+  720  docker ps
+  721  docker run -t -i amazonlinux /bin/bash
+  722  docker ps -a
+  723  docker run 8e8df2654e0a
+  724  docker run -t -i amazonlinux /bin/bash
+  725  pwd
+  726  cd ..
+  727  ls
+  728  cd new-centos-lamp/
+  729  l
+  730  ls
+  731  vim Dockerfile
+  732  docker build -t new-centos-lamp .
+  733  vim Dockerfile
+  734  docker build -t new-centos-lamp .
+  735  vim Dockerfile
+  736  docker build -t new-centos-lamp .
+  737  vim Dockerfile
+  738  vim Dockerfile
+  739  docker build -t new-centos-lamp .
+  740  vim Dockerfile
+  741  docker build -t new-centos-lamp .
+  742  vim Dockerfile
+  743  docker build -t new-centos-lamp .
+  744  vim Dockerfile
+  745  vim Dockerfile
+  746  docker build -t new-centos-lamp .
+  747  vim Dockerfile
+  748  vim Dockerfile
+  749  docker build -t new-centos-lamp .
+  750  vim Dockerfile
+  751  docker build -t new-centos-lamp .
+  752  vim Dockerfile
+  753  docker build -t new-centos-lamp .
+  754  vim Dockerfile
+  755  docker build -t new-centos-lamp .
+  756  vim Dockerfile
+  757  docker build -t new-centos-lamp .
+  758  vim Dockerfile
+  759  docker build -t new-centos-lamp .
+  760  vim Dockerfile
+  761  vim Dockerfile
+  762  docker build -t new-centos-lamp .
+  763  vim Dockerfile
+  764  vim Dockerfile
+  765  docker build -t new-centos-lamp .
+  766  vim Dockerfile
+  767  vim Doc
+  768  vim Dockerfile
+  769  docker build -t new-centos-lamp .
+  770  vim Dockerfile
+  771  docker build -t new-centos-lamp .
+  772  vim Dockerfile
+  773  docker build -t new-centos-lamp .
+  774  vim Dockerfile
+  775  docker build -t new-centos-lamp .
+  776  mv Dockerfile Dockerfile3
+  777  vim Dockerfile
+  778  docker build -t new-centos-lamp .
+  779  cat Dockerfile2
+  780  vim Dockerfile3
+  781  cat Dockerfile
+  782  cat Dockerfile
+  783  ls
+  784  vim Dockerfile
+  785  docker build -t new-centos-lamp .
+  786  vim Dockerfile3
+  787  vim Dockerfile
+  788  docker build -t new-centos-lamp .
+  789  ls
+  790  cp -R ../my-own-container/src/ .
+  791  ls
+  792  cp -R ../my-own-container/src/ ./src
+  793  ls
+  794  rm index.php 
+  795  rm -rf assets/
+  796  rm -rf images/
+  797  ls
+  798  cd src
+  799  l
+  800  ls
+  801  cd ..
+  802  vim Dockerfile
+  803  cat ~/ECS-Octank/Dockerfile 
+  804  vim Dockerfile
+  805  vim Dockerfile
+  806  docker build -t new-centos-lamp .
+  807  ls
+  808  vim supervisord.conf
+  809  docker build -t new-centos-lamp .
+  810  ls
+  811  docker images
+  812  docker -d new-centos-lamp -it /bin/bash
+  813  docker -dit new-centos-lamp /bin/bash
+  814  docker run -d new-centos-lamp -it /bin/bash
+  815  docker run -it  new-centos-lamp  /bin/bash
+  816  docker ps
+  817  docker ps -a
+  818  docker attach 93cca2fdee4b
+  819  docker run 93cca2fdee4b
+  820  docker run -d new-centos-lamp
+  821  docker ps
+  822  docker ps
+  823  docker ps
+  824  docker attach 14c8ebbafe7d
+  825  docker ps
+  826  docker run -d new-centos-lamp
+  827  docker ps
+  828  docker ps
+  829  docker ps
+  830  docker ps
+  831  docker stop a6f77e1fd951
+  832  docker ps
+  833  docker run -d new-centos-lamp -p 8888:80
+  834  docker run -d  -p 8888:80 new-centos-lamp
+  835  docker ps
+  836  docker ps
+  837  vim Dockerfile
+  838  vim supervisord.conf 
+  839  vim Dockerfile
+  840  docker ps
+  841  docker stop 361e77b1e58b
+  842  docker build -t new-centos-lamp .
+  843  docker run -d  -p 8888:80 new-centos-lamp
+  844  docker ps
+  845  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9  https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  846  docker login -u AWS -p eyJwYXlsb2FkIjoidHZ1QitUZGxzbkU0TEZJb3dYVGFFSmFXenVCc1dlcXFNWGxUckVURmM2cUVoa2loakpBc3lGMUx3bU5uUmZEZklidTVVZms5Z2NUOVlSTDRYOFJZbjVUa3JaVzZaYld2YW5xMlVkTnE4akhQMTZqL3Z1V2hMWXozVlAva2ZyQXNCcDduVDE5QzN5em5odkRrTzdWTUVhT1BuejBEQjVVNTlYQi9YWkJZUVVNc25HbGVIOHdvQ1dCalNDSDhlWFNTN3lRNm9LeExoZ0xwdFhKM3NtSXkxNm5VSDlmT05XbkRkcEJSOFJtUTUwaWhzR043ZU92WlluVDFXUkdLSmc0a211L2E4Y2dDRjB5TDNlY3ZoVnMyOW9OZTJXdFFVUkU1Ry9kcUVYME1xejduMmpZRXFjMzU5WHpaV3EyWUlod2l6V2pnN1FScElzbDkrdjNCTWw0YjROWjE0bkNOa2dFTitTNllYWW9KRWU5Wm1ySnlNak1lL2JaVHdXQ0liOEdJd2hxTUM1UzdoMkd2aHF6Q1VZamlBOVF6eDd4dm5kVkVPcnQva1MwUnd4eDgvVHRGckFZOFhja1dGN1kxR0swemd4b0xHWVZ6VVdBMkliMkVKWCt5TU5yUHFuR0J6R1Y0SXRac1lXUHJwQVpBcURUbFF3T1IyY1Q5cHgwb1JmQS9QeEhrc0xMejlNTFVycDdvT0pTVGJzUTJpVVRaeUJ2cFY3RGRLVGhjU2tDMVR6OUc4RTlHT3Q2VzF5dUVLWWJ5TnFkSktPelN6SW9pN0NhcVpMWllvaysxb2pNc3RBUU5jMkIxWkVRaGVQeHBoNFlCSFlQSm1TQ3RzNkhSTE9xc1lyU2grbE9tSWpuM3ZaTmxPTU1NU0Q1NzIvZU1OZHVSam90N1J2MWViNVZFMC85ZEczK2l6VDY5bWNmeGNIRURWWml6YUd5cUtqbkNoUk1UTG1aSlVnaEdQUFAxbTNaRFNOWWhsTkRxZndPSTVmNzJaeGswZk0zNk1WTTNVcWZEOW40VG0wd2crSWVGNkZ4alhURjBmUlhKS0NTenhKTXhOTXdod2tkWmRTcndyVUxqeUxwTjlsVUhUZGg3b0hsRDF5TGFRUFBkemZuSFM3L3VQT2Y1TmlIZ0toVklSMEpLUVF4RVNJc3IwTnMyeklqbnZEZDdIYUZvNi9sSHFudCtEbHNsc0Y2SERPRUFYTlVxc0N1QXNBcXlZdTJRM3Bidkd2Z0JLdkpuS0diVVpzNnVoOE8zd0Q0cGRISzc0S2JEQ2s2dHArU1Rua1E1Z0dRY1FKU3BoMkIva24vQWJ2UFVST2lOcVU2YllMQW1neXk1TWZsaWk3dGY5VjVzN1RWR1R0NmkyUC9heW13dlBNa2tYSWVBTWRMek1OYzJ2TTI2U3J0czNIZ3lPajVVTW0rS1RDQU95ZzBrR1NJdDEvbzB5eEtZQjN5QlNuMTZSRkUxdm9YVjBWRmxzZWhxd1o2Qzljcz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhqdnVCRDBIakhLbUR3dmNRSUJFSUE3dlBRS1Arb3QrWEg2blpGNXVOZUhJQk9NUFVXdC9sbjN5clU4RmpmR3RGc2pnTWE2YzFFVit5QlVFUW8yVS9OQmQ5SEpVTmxzY09FeDRMRT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTEzMjg5NTd9  https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  847  aws ecr get-login --no-include-email --region us-east-1
+  848  docker login -u AWS -p eyJwYXlsb2FkIjoidi9YN2FWZk1OU2w4K2s1aGRQRDRUNXVlT2tZRk9hN1lmV2RHNFpqeTVXcGdSbXo5UmdzYllmSk1paElYOENkKzM3djlNWFg5bS9SbGVrSFFIb0YvemVKVlVaZjJOTEh3akE0VWRsdlhMMENmakZUeUM1TmFWSGNmeS84VnNnRGQ5Zy9IRGR1UlJaSm1JL25IVWtoOE1VbmdwV2FNbUFjR2VGMU5RVEdlbUEvNzgvcHZ2QUo2VGFRWHlqN3Zmd0c0VTQ0UHc3dHBaaCtqTnUzVTNzQ3BUc3lEcWdEUFdzeDJJOERod0dadEpxS242cDA3TzZ6Z0JLcDk1QlFFUE5vblNEZmhkSnU2eUtmcEFsaEZkek5zdkVzWGpIMnoyNEExeWpXZzVvdU1zcG9zay9qcGRHWlJJWUduTm0zZjJhSUpUdXZIenBXMkxxZVdCN1VFNFB1LzlGTGNaajRYaE5Pa2RtM1R1WXJZNVNwK0hJVSszTXVtRXRhQXA1YXZOaE8vd3NoaTcveUI5MCtTZEVlZHBYZFNycVRxRGxia0gwSGtKV1JYTjhBTFVvb3JhL0h0cWdUdVpmMXZob25yeUhhZHZmK2o0WGZtMDF4VUVnQjdEUzVqTmI3Q0txRUtOd2lPdElabERIOW1WM2NTUXV2SUdhR1pMMVE2T0FQTGYyMGdtUkpmSE9CbFJhT3RLcmJrM05uMWNVMitFblIvRzQrQXhSMEwyZ29ROExoTXJoaTZGZUsxcndPTFl6d2RvNHZMYktuQ3VIOFRLVXV0RktjM0xZbVZLRmxCQkp5djhSMzlFZUdqU2MwbDk3UXpUK2hsTmlCdmMwTWUwa3J1L0RMVU51dWVacUZucXBwbGFHc2U0Q1BiRmc4dVNRd1hqck1aQ1F1b01jbldERitheThZOVFQU2w3NHNkcURxWlhQaEI5M3VjR0FmSVFESEhrdXhqV1dWak8zQ25VQVlrbTlMK1ZZUFQzNjRIWExNUjFRZnUxT2FWTVZxdnJqSFNWQ2RhMXBCVmdweVlVL3JUNkZEK240Q3hqZ2VnWmd2cldzUjRpYjVJU0puRWZOVDA1MEErdDFVbjhoN3pNRXFZYjR1RnFsbHNqcmxZWHBpM2doZkpCdEc2M1RoMGpkWXRXanp2QTlYU1JHUllOODd5Q05vbnN3VWhqaHkzcUJoMFNoR3BkUjJoMFZhSzRxbWxieXZlbGtJY1M2SGlUcjQ4V2JRVmtUdWRqME5qYjRNaU5mR2NQd0g3R1ZQUlJIMHpRcFFkVk15T01RK3NzYzhVVXpnemN2ZlhZMHdxdWxZUlNWc2ppbjJmakhNL01jUmdPa2JpRzdoZjI5ZFAvUjRKU3BhQzQ4Z2Z4UURzcUNsQWZxdmxCcm5vRDB4SjVjWjNzdlo0UFM3YWZRKzlVSWF6OENtWjF2OTdKeVBWdGhnQXhIUks2Y245UFJaNi9qNWd5UnN4S05jPSIsImRhdGFrZXkiOiJBUUVCQUhod20wWWFJU0plUnRKbTVuMUc2dXFlZWtYdW9YWFBlNVVGY2U5UnE4LzE0d0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVEQ1lycVZzR205MUtadGdOR1FJQkVJQTdidDE1R0owQStzL0hTV052c041VkxpK1EwTlh6WTM1eFZLeC9OcW44NzdJcDM3YmJiM3ZVcCtLNVhDbnJHVzBTYnV4QXFXZUhKMkhBVm5rPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTUxMTQzMDEwMX0= https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  849  docker build -t new-centos-lamp .
+  850  docker tag new-centos-lamp:latest 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:latest
+  851  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:latest
+  852  ssh sona@safelang.com
+  853  ls
+  854  clear
+  855  pwd
+  856  ls
+  857  cd src
+  858  ls
+  859  vim index.php 
+  860  docker build -t new-centos-lamp .
+  861  cd assets/
+  862  ls
+  863  cd ..
+  864  pwd
+  865  ls
+  866  cd images/
+  867  ls
+  868  cd ..
+  869  vim index.php 
+  870  cler
+  871  clear
+  872  ls
+  873  cd ..
+  874  ls
+  875  cat Dockerfile
+  876  vim Dockerfile
+  877  ls
+  878  cd src
+  879  vim index.php 
+  880  cd ..
+  881  ls
+  882  docker build -t new-centos-lamp .
+  883  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:latest
+  884  docker login -u AWS -p eyJwYXlsb2FkIjoidi9YN2FWZk1OU2w4K2s1aGRQRDRUNXVlT2tZRk9hN1lmV2RHNFpqeTVXcGdSbXo5UmdzYllmSk1paElYOENkKzM3djlNWFg5bS9SbGVrSFFIb0YvemVKVlVaZjJOTEh3akE0VWRsdlhMMENmakZUeUM1TmFWSGNmeS84VnNnRGQ5Zy9IRGR1UlJaSm1JL25IVWtoOE1VbmdwV2FNbUFjR2VGMU5RVEdlbUEvNzgvcHZ2QUo2VGFRWHlqN3Zmd0c0VTQ0UHc3dHBaaCtqTnUzVTNzQ3BUc3lEcWdEUFdzeDJJOERod0dadEpxS242cDA3TzZ6Z0JLcDk1QlFFUE5vblNEZmhkSnU2eUtmcEFsaEZkek5zdkVzWGpIMnoyNEExeWpXZzVvdU1zcG9zay9qcGRHWlJJWUduTm0zZjJhSUpUdXZIenBXMkxxZVdCN1VFNFB1LzlGTGNaajRYaE5Pa2RtM1R1WXJZNVNwK0hJVSszTXVtRXRhQXA1YXZOaE8vd3NoaTcveUI5MCtTZEVlZHBYZFNycVRxRGxia0gwSGtKV1JYTjhBTFVvb3JhL0h0cWdUdVpmMXZob25yeUhhZHZmK2o0WGZtMDF4VUVnQjdEUzVqTmI3Q0txRUtOd2lPdElabERIOW1WM2NTUXV2SUdhR1pMMVE2T0FQTGYyMGdtUkpmSE9CbFJhT3RLcmJrM05uMWNVMitFblIvRzQrQXhSMEwyZ29ROExoTXJoaTZGZUsxcndPTFl6d2RvNHZMYktuQ3VIOFRLVXV0RktjM0xZbVZLRmxCQkp5djhSMzlFZUdqU2MwbDk3UXpUK2hsTmlCdmMwTWUwa3J1L0RMVU51dWVacUZucXBwbGFHc2U0Q1BiRmc4dVNRd1hqck1aQ1F1b01jbldERitheThZOVFQU2w3NHNkcURxWlhQaEI5M3VjR0FmSVFESEhrdXhqV1dWak8zQ25VQVlrbTlMK1ZZUFQzNjRIWExNUjFRZnUxT2FWTVZxdnJqSFNWQ2RhMXBCVmdweVlVL3JUNkZEK240Q3hqZ2VnWmd2cldzUjRpYjVJU0puRWZOVDA1MEErdDFVbjhoN3pNRXFZYjR1RnFsbHNqcmxZWHBpM2doZkpCdEc2M1RoMGpkWXRXanp2QTlYU1JHUllOODd5Q05vbnN3VWhqaHkzcUJoMFNoR3BkUjJoMFZhSzRxbWxieXZlbGtJY1M2SGlUcjQ4V2JRVmtUdWRqME5qYjRNaU5mR2NQd0g3R1ZQUlJIMHpRcFFkVk15T01RK3NzYzhVVXpnemN2ZlhZMHdxdWxZUlNWc2ppbjJmakhNL01jUmdPa2JpRzdoZjI5ZFAvUjRKU3BhQzQ4Z2Z4UURzcUNsQWZxdmxCcm5vRDB4SjVjWjNzdlo0UFM3YWZRKzlVSWF6OENtWjF2OTdKeVBWdGhnQXhIUks2Y245UFJaNi9qNWd5UnN4S05jPSIsImRhdGFrZXkiOiJBUUVCQUhod20wWWFJU0plUnRKbTVuMUc2dXFlZWtYdW9YWFBlNVVGY2U5UnE4LzE0d0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVEQ1lycVZzR205MUtadGdOR1FJQkVJQTdidDE1R0owQStzL0hTV052c041VkxpK1EwTlh6WTM1eFZLeC9OcW44NzdJcDM3YmJiM3ZVcCtLNVhDbnJHVzBTYnV4QXFXZUhKMkhBVm5rPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTUxMTQzMDEwMX0= https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  885  aws ecr get-login --no-include-email --region us-east-1
+  886  docker login -u AWS -p eyJwYXlsb2FkIjoic3RIMEtRRUNaQThTTkJBNTNUSjQxSVdwelgxeDBtWXhlR2dWaFpITGU1RlRrMTJoSTlDa0JYRlpRQjQvMEhZY1NEcU51czN3MWc3YzZEUG9xWURTUXhxbk01aVJLSHhMOCtKL2pLSDQrdnhkV0p0Qk1vb3lPS3hMMzBQa3NSazFEdlBKdndjZGJiK3Fqc2l6ZlhWV3JoVFZkTmI0YmpLWDJZUkZHQW9NWGg2WCtHWVdITUNzREdXZXZod0FuR3B5MDVtdmZzVUVOd3lKYWxJLzdDSDNxZ21iRWQxV3FTR3daa1R3dG0vWHhCb2dwa2JsNmNEQ044ejlMUFpjM2I2SFlmbk53ZjlwSnZrcmZoNWtlWm12Y09TNW9yUmdQUkoxNHZiUEd1ZDlRbTgvdUFCUTM4dUNmdzlCN2c5NmZ4VGlLUXQ1ZEtISTdzbzVLMzJmQjBDUUtjeWNpSzRtTmV6RGYxZWVjRm5iblZOM0lDUHplRVBsdGFrRzVqRTZ3cis5SlBlVld0Nnl0bFZ3dXpISGNuNWV5WGNLbnYvaHhkWFlIZFFzSTJZQVQ4aXRlb21HcHdScjlmS3FaRVBnOEp4ZmZzWTM1VkFmckNZRHBHSWJjV2lrQi9ad1RadU5JdHVSUm52cG4wWWxmOVdFSVpDZklTK3ZOT1NHNXZhWkVpSHhYSTF1SzBQNUtOcGhhU2xVNTU2c1lrVVVTQVBueTNEV0ZVbEY0dlZwM0tHbVp2S2VaQlRYWXR3L3RkQkhBTDdYNzRCb2VqWkJRRm5HSVdOR0llbml6ZEduZk45RFR3MWJ6QWxlK3VnZWw1Y2VrY3hkY0tHVno3Q210cWgrQ2pHTElvYTdNOVNyaGdnNVZ3b2xBS2lXYTlOWXVEQk5jSHlZVkdtNHNXZEoyZUFCM3NUNmJyRVVXeDcwL1pwbk5TdEIxbjN3R0pXWlk1UkNiUDQzWUo2QVczYk9mMVZqQ1IxY21XS1JJZFAzZDVzTzhTb2VhSHhYRk1zOFJQOFZYZThlajVLRFc5a2hHN2Eyc2NwRmF6VmcvVGdMWDRsRDFOdDZmdEpZQzNoeG9aeERBdlNzUXpHSHFSVmZscjlGMkFvbHZ3bEwyM0NEZkIrMjNwSGRnSE1IS3VITGZuOStERWV4TTRCRWh4Z0tvM0t5a1NVWlRNOWRTSEZlMHFRajU5WHhKVjZsVEtLendvNFVKV2FlbVp4ZWovZEp0aU1veVY3cVdoSTNyejJiMUFDUVh0TTNRbmlOUVp4NTVuNEdnUm80amZsZ0VGWTNYTE1vRzIvWGpPTDRYbzV0Z1ZjaVNCQ1NHQVFGdVFrRHZUWDhNbEorSWtmVU11OER0YXJqNkxJWWljckZIUFFOU1NHZHVUbitJZ3pGMXBIMnhtamJDRUJ3K2I1VG1iMnZvdVUzbDVkbVAwVFdRV3U0S3k1alNYZ0JTNWhiSUdKRFVhMWRJZG5ibWcxK0d6VldVOFR4Ri9YRWJNbz0iLCJkYXRha2V5IjoiQVFFQkFIaHdtMFlhSVNKZVJ0Sm01bjFHNnVxZWVrWHVvWFhQZTVVRmNlOVJxOC8xNHdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFRFBLNUpKSGZTWldhS1hFZ0x3SUJFSUE3SWNJdjYvemQ4VHlaQUQrMGhWSkYwaW80dm5iZE5lSFhOWkRZSjQzby9xS01obGJmTnF3NDMvbG5FRHVXOHMxcldzc3ZnZm1EOWlEV3FsZz0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE1MTE4NTA5NDN9 https://976804535173.dkr.ecr.us-east-1.amazonaws.com
+  887  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:latest
+  888  vim index.php 
+  889  cd src
+  890  ls
+  891  vim index.php 
+  892  cd ..
+  893  ls
+  894  vim Dockerfile
+  895  
+  896  cd ..
+  897  ls
+  898  git
+  899  clear
+  900  ls
+  901  cd new-centos-lamp/
+  902  ls
+  903  git init help
+  904  ls
+  905  ls
+  906  ls
+  907  echo "# CentOS-SimplePHP-ContainerApp" >> README.md
+  908  ls
+  909  git init
+  910  git add README.md 
+  911  git commit -m "first commit"
+  912  git config --global --edit
+  913  git commit --amend --reset-author
+  914  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  915  git push -u origin master
+  916  ls
+  917  cd ..
+  918  ls
+  919  git add new-centos-lamp/
+  920  git init
+  921  git add new-centos-lamp/
+  922  git commit -m "folder commit"
+  923  git config --global user.email cloudpal@cloudpal.org
+  924  git commit --amend --reset-author
+  925  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  926  git push -u origin master
+  927  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  928  git push -u origin master
+  929  git pull
+  930  ls
+  931  cd new-centos-lamp/
+  932  ls
+  933  cd ..
+  934  git push -u origin master
+  935  cd new-centos-lamp/
+  936  ls
+  937  rm .git/
+  938  rm -rf .git/
+  939  cd ..
+  940  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  941  git push -u origin master
+  942  git add new-centos-lamp/
+  943  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  944  git remote remove  origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  945  git remote remove  https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  946  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  947  git push -u origin master
+  948  git remote add origin https://github.com/cloudpal/CentOS-SimplePHP-Container.git
+  949  git push -u origin master
+  950  clear
+  951  ls
+  952  git init
+  953  git add new-centos-lamp/
+  954  git push -u origin master
+  955  echo "# Container-CentOSPHP" >> README.md
+  956  git init
+  957  git add new-centos-lamp/
+  958  git commit -m "first commit"
+  959  history >out
+  960  vim out
+  961  head 100 out 
+  962  head -100 out 
+  963  clear
+  964  history
+  965  clear
+  966  ls
+  967  cd new-centos-lamp/
+  968  ls
+  969  cd ..
+  970  cp -r new-centos-lamp/ container-centosphp
+  971  cd container-centosphp/
+  972  ls -l
+  973  ls -la
+  974  git clone https://github.com/cloudpal/CentOS-SimplePHP-ContainerApp.git
+  975  l
+  976  ls
+  977  ls -la
+  978  mv * CentOS-SimplePHP-ContainerApp/
+  979  ls
+  980  cd CentOS-SimplePHP-ContainerApp/
+  981  ls
+  982  cd ..
+  983  mv CentOS-SimplePHP-ContainerApp/ ../
+  984  ls
+  985  cd ..
+  986  ls
+  987  rmdir  container-centosphp/
+  988  ls
+  989  cd CentOS-SimplePHP-ContainerApp/
+  990  ls
+  991  git add .
+  992  ls
+  993  vim src/index.php 
+  994  ls
+  995  git add .
+  996  git commit -m "New Container Commit"
+  997  git push origin master
+  998  ls
+  999  vim README.md 
+ 1000  vim src/index.php 
+ 1001  vim src/index.php 
+ 1002  history >out
+ 1003  vim out
+ 1004  rm out
+ 1005  docker build -t new-centos-lamp .
+ 1006  docker tag new-centos-lamp:nov27 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:nov27
+ 1007  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:nov27
+ 1008  docker tag new-centos-lamp:nov27 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:nov27
+ 1009  docker images
+ 1010  docker tag new-centos-lamp:latest 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:nov27
+ 1011  docker push 976804535173.dkr.ecr.us-east-1.amazonaws.com/new-centos-lamp:nov27
+ 1012  docker ps
+ 1013  docker stop a458e0cdfa24
+ 1014  history > out
