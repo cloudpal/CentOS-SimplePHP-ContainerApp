@@ -2,6 +2,9 @@ FROM amazonlinux:latest
 # install http
 RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 
+#install AWS CLI
+RUN yum -y install which unzip aws-cli
+
 # install httpd
 RUN yum -y install httpd vim-enhanced bash-completion unzip
 
