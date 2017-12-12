@@ -7,7 +7,7 @@
         <title>CloudPal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <style>body {margin-top: 40px; background-color: #297;}</style>
+        <style>body {margin-top: 40px; background-color: #397;}</style>
         <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
@@ -16,7 +16,7 @@
         <div class="container">
             <div class="hero-unit">
                 <img src="images/octank.png"></img> <br/>
-		<h1>Powered by AWS Elastic Continer Service Platform</h1>
+		<h1>Powered by AWS Elastic Container Service</h1>
                 <h2>By - Sona Rajamani</h2>
 		<p><h3><?php echo "On: " . date("d/m/Y"); ?></h3> </p> </br> <!-- echo "Today is " . date("Y.m.d") . "<br>"; echo "Today is " . date("Y-m-d") . "<br>"; echo "Today is " . date("l"); ?></p> -->
                 <p>This Cloudpal e-commerce web  is now running on a container in Amazon ECS.</p>
